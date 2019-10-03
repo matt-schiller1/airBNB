@@ -1,0 +1,19 @@
+﻿<taglib xmlns="http://java.sun.com/xml/ns/j2ee" version="2.0">  
+
+    <tlib-version>1.0</tlib-version>  
+    <short-name>myfn</short-name>  
+    <uri>http://localhost:8080/mytags</uri>  
+
+    <function>    
+        <name>replaceHashTags</name>    
+        <function-class>
+            com.banjo.transmittr.HashTagClass
+        </function-class>    
+        <function-signature>    
+            String replaceHashTags(String s)
+        </function-signature>  
+    </function> 
+
+    <!-- more functions -->
+
+</taglib>
